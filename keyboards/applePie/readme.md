@@ -1,11 +1,11 @@
 # applePie
 
-![applePie](imgur.com image replace me!)
+![applePie](https://imgur.com/a/qOAVsXz)
 
-*A short description of the keyboard/project*
+*a custom Split keyboard with RGB, OLED display and Bluetooth*
 
-* Keyboard Maintainer: [ccullin](https://github.com/yourusername)
-* Hardware Supported: *The PCBs, controllers supported*
+* Keyboard Maintainer: [ccullin](https://github.com/ccullin)
+* Hardware Supported: *Atmel 32U4 based with custom hardware design*
 * Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
