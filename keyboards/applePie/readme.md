@@ -1,6 +1,7 @@
 # applePie
 
-![applePie](https://imgur.com/a/qOAVsXz)
+![applePie](https://i.imgur.com/ZNiZElq.png?1)
+
 
 *a custom Split keyboard with RGB, OLED display and Bluetooth*
 
