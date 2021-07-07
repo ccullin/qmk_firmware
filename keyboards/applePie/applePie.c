@@ -14,7 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "applePie.h"
+#include "applepie.h"
 
 
 // #ifdef SSD1306OLED
