@@ -25,6 +25,10 @@
 #include "adafruit_ble.h"
 #endif
 
+#ifdef RGB_MATRIX_ENABLE
+#include <rgblight_list.h>
+#endif
+
 // Defines names for use in layer keycodes and the keymap
 enum layer_names {
     _QWERTY,
@@ -44,7 +48,7 @@ enum custom_keycodes {
 bool shift_pressed = false;  // used to custom shift functions
 
 
-#include <rgblight_list.h>
+
 
 #ifdef TEST_LEFT
     /*
@@ -367,7 +371,7 @@ bool shift_pressed = false;  // used to custom shift functions
 
 #endif // If TEST_LEFT elif TEST_RIGHT else production
 
-
+#ifdef RGB_MATRIX_ENABLE
 #define MAX_COLORS 18
 int8_t color_index = 0;
 
@@ -451,6 +455,7 @@ const PROGMEM struct color_hsv color[MAX_COLORS] = {
 //     {HSV_PINK}
 // };
 
+#endif //RGB_MATRIX_ENABLE
 
 // void set_output_user(uint8_t output) {
 // #ifdef MODULE_ADAFRUIT_BLE
